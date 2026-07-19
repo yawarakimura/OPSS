@@ -1,0 +1,11 @@
+PySide6>=6.8
+pypdfium2>=4.30
+Pillow>=10.0
+numpy>=1.26
+pytesseract>=0.3.13
+opencv-python>=4.10
+
+# PaddleOCRは任意。Apple Siliconでは環境により導入に時間がかかります。
+# まずTesseractだけで動作確認し、その後必要なら次を導入してください。
+# paddleocr>=2.8
+# paddlepaddle>=3.0
